@@ -1,0 +1,76 @@
+#site-header {
+    display : flex;
+    background-color: #ef5350;
+    font-family: "Lato, sans-serif";
+    justify-content: center;
+}
+
+header {
+    display : flex;
+    height : 50px;
+    width: 75%;
+    justify-content: space-between;
+}
+
+header img {
+    width : 110px;
+}
+
+.lien-logo {
+    display: flex;
+    justify-content: center;
+}
+    
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding : 1em;
+}
+
+
+#main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bouton {
+    background-color: #ef5350;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    margin : 15px;
+    padding : 12px;
+    cursor: pointer;
+}
+
+#affichage_poke {
+    display: grid;
+    width: 75%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 15px;
+}
+
+
+template {
+    display: block;
+}
+
+
+.card-img {
+    margin: 10px 0;
+    height: 150px;
+}
+
+.card {
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    border-radius: 5px;
+}
